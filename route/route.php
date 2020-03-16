@@ -16,3 +16,7 @@ Route::get('think', function () {
 Route::get('hello/:name', 'index/hello');
 
 Route::get('index/test', 'index/test');
+Route::get('search/test/index', 'SearchTest/index');
+Route::post('search/test/get', 'SearchTest/searchGet');
+Route::post('search/test/search', 'SearchTest/search');
+Route::post('search/test/search/doc', 'SearchTest/searchDoc');
