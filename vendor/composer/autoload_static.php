@@ -35,6 +35,8 @@ class ComposerStaticInit672483c9fd6d1ba445e264929578c493
         array (
             'GuzzleHttp\\Stream\\' => 18,
             'GuzzleHttp\\Ring\\' => 16,
+            'GatewayWorker\\' => 14,
+            'GatewayClient\\' => 14,
         ),
         'E' => 
         array (
@@ -70,6 +72,14 @@ class ComposerStaticInit672483c9fd6d1ba445e264929578c493
         'GuzzleHttp\\Ring\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/ringphp/src',
+        ),
+        'GatewayWorker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/gateway-worker/src',
+        ),
+        'GatewayClient\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/gatewayclient',
         ),
         'Elasticsearch\\' => 
         array (

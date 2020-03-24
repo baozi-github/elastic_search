@@ -9,4 +9,9 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-return [];
+return [
+    'app\common\command\Hello',
+    'app\common\command\work_start',
+    'app\common\command\gate_start',
+    'app\common\command\busi_start',
+];
